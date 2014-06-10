@@ -18,7 +18,7 @@ app:
 # Settings for map and layer configs
 map:
   geolocation_enabled: true
-  geolocation_onload: false
+  geolocation_onload: true
   options:
     center:
       lat: 42.96766027349807
@@ -91,15 +91,6 @@ place:
       attrs:
         - key: placeholder
           value: _(Name)
-        - key: size
-          value: 30
-    - prompt: _(Your Email)
-      type: text
-      name: private-submitter_email
-      optional: true
-      attrs:
-        - key: placeholder
-          value: _(Email address)
         - key: size
           value: 30
     - prompt: _(What are you sharing?)
