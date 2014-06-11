@@ -113,7 +113,6 @@ place:
           value: _(Location Name)
         - key: size
           value: 30
-        - key: required
     - prompt: _(Describe it)
       type: textarea
       name: description
